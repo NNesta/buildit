@@ -13,7 +13,7 @@ function HomeContactSection() {
           </div>
           <div className="flex gap-4 items-center">
             <div className="bg-primarySkyDry py-2 px-3 self-start rounded-md">
-              <Image src="/assets/phone-icon.svg" width={25} height={25} />
+              <Image alt="" src="/assets/phone-icon.svg" width={25} height={25} />
             </div>
             <div className="flex flex-col">
               <h4>Tel</h4>
@@ -22,7 +22,7 @@ function HomeContactSection() {
           </div>
           <div className="flex gap-4 items-center">
             <div className="bg-primarySkyDry py-2 px-3 self-start rounded-md">
-              <Image src="/assets/email.svg" width={25} height={25} />
+              <Image alt="" src="/assets/email.svg" width={25} height={25} />
             </div>
             <div className="flex flex-col">
               <h4>Email</h4>
@@ -31,7 +31,7 @@ function HomeContactSection() {
           </div>
           <div className="flex gap-4 items-center">
             <div className="bg-primarySkyDry py-2 px-3 self-start rounded-md">
-              <Image src="/assets/office-icon.svg" width={25} height={25} />
+              <Image alt="" src="/assets/office-icon.svg" width={25} height={25} />
             </div>
             <div className="flex flex-col">
               <h4>Office</h4>

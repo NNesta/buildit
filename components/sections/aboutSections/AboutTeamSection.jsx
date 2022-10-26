@@ -57,7 +57,7 @@ function AboutTeamSection() {
         <h4 className='text-primaryGreenish font-medium'>Our team</h4>
         <h1 className='text-primaryGreenDarkish text-3xl font-bold'>Let’s meet</h1>
         <div className="grid grid-cols-3 gap-4">
-        {teamMembers.map(member=><WorkerCard name={member.name} position={member.position} image={member.image}/>)}
+        {teamMembers.map(member=><WorkerCard name={member.name} position={member.position} image={member.image} key={Math.random()} />)}
         </div>
    </div>
    <CallerComponent/>      

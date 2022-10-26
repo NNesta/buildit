@@ -16,7 +16,7 @@ function HomeSocialSection() {
         <h4 className='text-primaryGreenish font-medium'>Socials</h4>
         <h1 className='text-primaryGreenDarkish text-3xl font-bold'>On Instagram</h1>
         <div className="grid grid-cols-3 gap-4">
-         {images.map(image=><Image src={image} width={328} height={278}/>)}
+         {images.map(image=><Image key={Math.random()} alt='' src={image} width={328} height={278}/>)}
         </div>
    </div>
     </div>

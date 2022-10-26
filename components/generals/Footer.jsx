@@ -19,10 +19,10 @@ function Footer() {
          </ul>
          <div className='flex gap-4'>
          <div className='bg-primaryWhiteAccent bg-opacity-10 py-2 px-3 self-start rounded-md' >
-            <Image src='/assets/insta.svg' width={15} height={15}/>
+            <Image alt='' src='/assets/insta.svg' width={15} height={15}/>
 </div> 
          <div className='bg-primaryWhiteAccent bg-opacity-10 py-2 px-3 self-start rounded-md' >
-            <Image src='/assets/face.svg' width={15} height={15}/>
+            <Image alt='' src='/assets/face.svg' width={15} height={15}/>
 </div> 
          </div>
          </div>

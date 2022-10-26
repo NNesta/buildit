@@ -18,13 +18,13 @@ function HomeHeroSection() {
        <div className="col-span-4 flex flex-col gap-4 items-center">
        <ul className="flex  items-end gap-4">
         
-        <li><Image src='/assets/house-1.png' width={160*1} height={160*1}/></li>
-        <li><Image src='/assets/house-2.png' width={250*1} height={250*1}/></li>
-        <li><Image src='/assets/house-3.png' width={150*1} height={150*1}/></li>
+        <li><Image alt='' src='/assets/house-1.png' width={160*1} height={160*1}/></li>
+        <li><Image alt='' src='/assets/house-2.png' width={250*1} height={250*1}/></li>
+        <li><Image alt='' src='/assets/house-3.png' width={150*1} height={150*1}/></li>
         </ul>
         <ul className=" flex gap-8 ">
-        <li><Image src='/assets/house-4.png' width={340*1} height={340*1}/></li>
-        <li className='pr-12'><Image src='/assets/house-5.png' width={210*1} height={210*1}/></li>
+        <li><Image alt='' src='/assets/house-4.png' width={340*1} height={340*1}/></li>
+        <li className='pr-12'><Image alt='' src='/assets/house-5.png' width={210*1} height={210*1}/></li>
        </ul></div>
         </div>
      </div>
