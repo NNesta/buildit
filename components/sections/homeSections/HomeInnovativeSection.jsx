@@ -1,32 +1,31 @@
 import React from 'react';
-import Image from 'next/image';
+import InnovativeCard from '../../generals/InnovativeCard';
 
 function HomeInnovativeSection() {
+    const innovatives = [
+        {
+            title: 'Featured Listing',
+            image: '/assets/listing.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        },
+        {
+            title: 'Available Properties',
+            image: '/assets/chevrons.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        },
+        {
+            title: 'In the News',
+            image: '/assets/news-icon.svg',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        } 
+    ]
   return (
-    <div className='container h-fit mx-auto flex flex-col gap-16 py-32 z-30 relative'>
+    <div className='container px-20 h-fit mx-auto flex flex-col gap-16 py-32 z-30 relative'>
        <h1 className='text-6xl text-primaryGreenDarkish font-bold mx-auto text-center'>Innovative Execution</h1>
-        <div className="grid grid-cols-3 max-w-[90%] mx-36 gap-8 ">
-            <div className='flex flex-col gap-4 max-w-[90%]'>
-                <div className='bg-primaryGreenAccent py-2 px-3 self-start rounded-md shadow-md' >
-            <Image alt='' src='/assets/listing.svg' width={25} height={25}/>
-</div>
-            <h1 className='text-primaryGreenDarkish text-2xl font-bold' >Featured Listing</h1>  
-            <p className='max-w-[80%]' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>  
-            </div>
-            <div className='flex flex-col gap-4  max-w-[90%]'>
-                <div className='bg-primaryGreenAccent py-2 px-3 self-start rounded-md shadow-md' >
-            <Image alt='' src='/assets/chevrons.svg' width={25} height={25}/>
-</div>
-            <h1 className='text-primaryGreenDarkish text-2xl font-bold' >Available Properties</h1>  
-            <p className='max-w-[80%]' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>  
-            </div>
-            <div className='flex flex-col gap-4 max-w-[90%]'>
-                <div className='bg-primaryGreenAccent py-2 px-3 self-start rounded-md shadow-md' >
-            <Image alt='' src='/assets/news-icon.svg' width={25} height={25}/>
-</div>
-            <h1 className='text-primaryGreenDarkish text-2xl font-bold ' >In the News</h1>  
-            <p className='' >Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>  
-            </div>
+        <div className="grid grid-cols-3 max-w-[90%] mx-auto gap-8 ">
+           {
+            innovatives.map((innovative, index)=><InnovativeCard key={index} title={innovative.title} image={innovative.image} description={innovative.description}/>)
+           }
         </div>
     </div>
   )

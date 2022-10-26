@@ -5,7 +5,7 @@ import DescriberComponent from '../../generals/DescriberComponent';
 function HomeAboutSection() {
   return (
     <div className='w-full h-fit bg-primarySkyDry py-20'>
-      <div className='w-[1240px] max-w-[80%] mx-auto'>
+      <div className='container mx-auto px-20'>
         <PartnersLogos/>
         <div className="grid grid-cols-2 gap-20 w-full my-12 ">
           <div className='w-full h-full '>

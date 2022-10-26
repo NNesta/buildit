@@ -12,7 +12,7 @@ function PartnersLogos() {
   ]
   return (
     <div className="flex items-center bg-transparent border-y-[1px] border-primaryGreenAccent justify-center py-4 gap-16 w-full max-w-[80%] mx-auto">
-         {images.map(image=><Image key={Math.random()} alt='' src={image} height={75*0.5} width={140*0.5}/>)}
+         {images.map((image,index)=><Image key={index} alt='' src={image} height={75*0.5} width={140*0.5}/>)}
         </div>
   )
 }

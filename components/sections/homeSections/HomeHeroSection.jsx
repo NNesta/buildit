@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 function HomeHeroSection() {
   return (
-    <div className="headerGradient p-16 h-fit relative w-full z-10 overflow-hidden">
+    <div className="headerGradient py-20 h-fit relative w-full z-10 overflow-hidden">
         <img className='absolute top-0 bottom-0 right-0 h-[120%] object-fill ' src="/assets/Figure.svg" alt="" />
         
-     <div className="grid grid-cols-7 mt-16 relative z-50 w-[1240px] max-w-[90%] mx-auto">
+     <div className="grid grid-cols-7 mt-16 px-20 relative z-50 container mx-auto">
         <div className="col-span-3 my-auto flex flex-col gap-8">
        <h1 className='text-6xl text-primaryGreenDarkish font-bold '>Development company</h1>
        <p className='text-primaryGreenLight text-xl'>Forward-thinking real estate developer, owner and investor with a reputation</p>

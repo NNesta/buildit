@@ -5,7 +5,7 @@ import ContactForm from "../../generals/ContactForm";
 function HomeContactSection() {
   return (
     <div className="h-fit w-full pt-40 pb-16 px-16 bg-primaryWhiteAccent">
-      <div className="grid grid-cols-2 gap-4 w-[1240px] max-w-[80%] mx-auto">
+      <div className="grid grid-cols-2 gap-4 container mx-auto">
         <div className="flex flex-col gap-16 text-primaryGreenDarkish">
           <div className="flex flex-col gap-6">
             <h4 className="text-primaryGreenish font-medium">Contact</h4>

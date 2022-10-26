@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <div className='absolute top-0 left-0 w-full h-36 z-50'>
-    <div className='h-full bg-transparent z-50 w-[1240px] max-w-[80%] mx-auto'>
+    <div className='h-full bg-transparent z-50 container mx-auto px-20'>
         <div className='flex justify-between  h-full items-center'>
           <div className='flex items-center gap-4'>
               <div className='w-8 h-8 bg-primaryGreen rounded-full'></div>

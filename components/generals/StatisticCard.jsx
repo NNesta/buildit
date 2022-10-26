@@ -1,6 +1,6 @@
 import React from 'react'
 
-function StatitsicsCard(props) {
+function StatisticCard(props) {
     const {numbers, image} = props;
   return (
     <div className="flex gap-4 items-center mx-auto  pl-12">
@@ -15,4 +15,4 @@ function StatitsicsCard(props) {
   )
 }
 
-export default StatitsicsCard
+export default StatisticCard;
