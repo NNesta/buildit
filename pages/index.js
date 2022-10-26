@@ -1,14 +1,12 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css';
-import Navbar from '../components/Navbar';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import InnovativeSection from '../components/InnovativeSection';
-import OwnerSection from '../components/OwnerSection';
-import PropertiesSection from '../components/PropertiesSection';
-import SocialSection from '../components/SocialSection';
-import ContactSection from '../components/ContactSection';
+import Navbar from '../components/generals/Navbar';
+import HomeHeroSection from '../components/sections/homeSections/HomeHeroSection';
+import HomeInnovativeSection from '../components/sections/homeSections/HomeInnovativeSection';
+import HomeAboutSection from '../components/sections/homeSections/HomeAboutSection';
+import HomePropertiesSection from '../components/sections/homeSections/HomePropertiesSection';
+import HomeSocialSection from '../components/sections/homeSections/HomeSocialSection';
+import HomeContactSection from '../components/sections/homeSections/HomeContactSection';
+import Footer from '../components/generals/Footer';
 
 
 export default function Home() {
@@ -21,12 +19,12 @@ export default function Home() {
       </Head>
       <div className=''>
         <Navbar/>
-         <Header/>
-         <InnovativeSection/>
-         <OwnerSection/>
-         <PropertiesSection/>
-         <SocialSection/>
-         <ContactSection/>
+         <HomeHeroSection/>
+         <HomeInnovativeSection/>
+         <HomeAboutSection/>
+         <HomePropertiesSection/>
+         <HomeSocialSection/>
+         <HomeContactSection/>
          <Footer/>
      </div>
     </div>

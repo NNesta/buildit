@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 function Footer() {
   return (
-    <div className='h-fit footerGradient p-16'>
-        <div className='grid grid-cols-4 gap-8 text-primaryWhiteAccent'>
+    <div className='h-fit footerGradient py-16'>
+        <div className='grid grid-cols-4 gap-8 text-primaryWhiteAccent w-[1240px] max-w-[80%] mx-auto'>
          <div className='flex flex-col gap-8 h-48'>
             <h1 className='text-2xl font-bold'>Buildit</h1>
              <p className='text-lg flex-1'>Development company, 2022</p>
@@ -50,4 +50,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default Footer;
