@@ -20,6 +20,7 @@ function HomePropertiesSection() {
         </div>
       </div>
     </div>
+    
   )
 }
 

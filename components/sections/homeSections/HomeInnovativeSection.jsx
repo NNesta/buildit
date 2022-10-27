@@ -20,9 +20,9 @@ function HomeInnovativeSection() {
         } 
     ]
   return (
-    <div className='container px-20 h-fit mx-auto flex flex-col gap-16 py-32 z-30 relative'>
+    <div className='container px-20 h-fit mx-auto flex flex-col gap-8 py-32 z-30 relative '>
        <h1 className='text-6xl text-primaryGreenDarkish font-bold mx-auto text-center'>Innovative Execution</h1>
-        <div className="grid grid-cols-3 max-w-[90%] mx-auto gap-8 ">
+        <div className="grid grid-cols-3 mx-auto gap-16">
            {
             innovatives.map((innovative, index)=><InnovativeCard key={index} title={innovative.title} image={innovative.image} description={innovative.description}/>)
            }
