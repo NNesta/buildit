@@ -18,14 +18,12 @@ export default function Home() {
         <link rel="icon" href="/assets/Switch.svg" />
       </Head>
       <div className=''>
-        <Navbar/>
          <HomeHeroSection/>
          <HomeInnovativeSection/>
          <HomeAboutSection/>
          <HomePropertiesSection/>
          <HomeSocialSection/>
          <HomeContactSection/>
-         <Footer/>
      </div>
     </div>
   )

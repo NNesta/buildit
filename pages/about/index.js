@@ -15,11 +15,9 @@ function About() {
         <link rel="icon" href="/assets/Switch.svg" />
       </Head>
         <div>
-   <Navbar/>
    <AboutHeroSection/>
    <AboutStatisticsSection/>
    <AboutTeamSection/>
-   <Footer/>
    </div>
     </div>
   )

@@ -13,9 +13,9 @@ const Navbar = () => {
           </div>
           <ul className='flex gap-4 text-primaryGreenLight'>
             <li><Link href="/about">About</Link></li>
-            <li><Link href="/about">Services</Link></li>
-            <li><Link href="/about">Projects</Link></li>
-            <li><Link href="/about">Contacts</Link></li>
+            <li><Link href="/services">Services</Link></li>
+            <li><Link href="/projects">Projects</Link></li>
+            <li><Link href="/contacts">Contacts</Link></li>
           </ul>
           <Button name="Need a project?" small={true}/>
         </div>
