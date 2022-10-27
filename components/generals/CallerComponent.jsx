@@ -8,7 +8,7 @@ function CallerComponent(){
     <h1 className='text-primaryGreenDarkish text-2xl font-semibold'>Call us</h1>
     <div className='flex gap-8 items-center'>
         <Button name='Call'/>
-        <Button name='Email' type='secondary'/>
+        <Button name='Email' light={true}/>
     </div>
     </div>
     </div>

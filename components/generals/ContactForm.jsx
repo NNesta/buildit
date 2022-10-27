@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Button from './Button';
 
 function ContactForm() {
   return (
@@ -27,7 +28,7 @@ function ContactForm() {
           cols={5}
         />
          </div>
-         <button className='text-white bg-primaryGreen rounded-md py-2'>Send message</button>
+         <Button name='Send message'/>
         </form>
    
   )

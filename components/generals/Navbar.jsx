@@ -1,6 +1,6 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
+import Button from './Button';
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
             <li><Link href="/about">Projects</Link></li>
             <li><Link href="/about">Contacts</Link></li>
           </ul>
-          <button className='bg-primaryGreen text-white py-2 px-4 rounded-md font-semibold'>Need a project?</button>
+          <Button name="Need a project?" small={true}/>
         </div>
     </div>
     </div>
