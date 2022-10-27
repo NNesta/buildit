@@ -7,19 +7,19 @@ function PartnersLogos() {
       height: 43.17,
       width: 51.06
   },
-   { link: '/assets/vector-2.svg',
+   { link: '/assets/Vector-2.svg',
       height:40,
       width:60
   },
-   { link: '/assets/vector-3.svg',
+   { link: '/assets/Vector-3.svg',
       height:40,
       width:217.17
   },
-   { link: '/assets/vector-4.svg',
+   { link: '/assets/Vector-4.svg',
       height:30,
       width:78
   },
-   { link: '/assets/vector-5.svg',
+   { link: '/assets/Vector-5.svg',
       height:45,
       width:94.61
   }
