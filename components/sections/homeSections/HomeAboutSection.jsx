@@ -8,7 +8,7 @@ function HomeAboutSection() {
     <div className='w-full h-fit bg-primarySkyDry py-20'>
       <div className='container mx-auto px-20'>
         <PartnersLogos/>
-        <div className="grid grid-cols-2  gap-20 w-full my-12 mx-24">
+        <div className="grid grid-cols-2  gap-20 w-full my-12">
           <div className='w-full h-full '>
             <Image src='/assets/ownerProfile.png' width={500} height={375}/>
           </div> 
